@@ -1,0 +1,78 @@
+body {
+    display: flex;
+}
+.nav{
+    top: 15px;
+    position: relative;
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 0 5px 33px black;
+    margin-left: 1000px;
+    border-width: 20px;
+}
+.nav a{
+    position: relative;
+    display: inline-block;
+    border-radius: 10px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 80px;
+}
+.nav a:hover{
+    border-bottom: 3px solid white;
+    width: auto;
+    height: 30px; 
+}
+.Logo h1{
+    font-family: monospace;
+    position: absolute;
+    right: 700px;
+    font-size: 50px;
+}
+.baba img{
+    position: absolute;
+    height: 500px;
+    left: 300px;
+    top: 180px;
+}
+.container{
+    position: absolute;
+    border: 0px solid black;
+    padding: 7px;
+    right: 300px;
+    top: 300px;
+    width: 400px;
+    height: 300px;
+}
+.container input{
+    width: 300px;
+    height: 40px;
+}
+.container i{
+    position: relative;
+    top: -30px;
+    left: 280px;
+}
+.container p{
+    font-family: monospace;
+    position: absolute;
+    top: -120px;
+    font-size: 40px;
+    left: 30px;
+    color: orange;
+}
+.container button{
+    position: absolute;
+    height: 30px;
+    width: 70px;
+    left: 100px;
+    border-radius: 0px;
+    border: 1px solid orange;
+    color: orange;
+    cursor: pointer;
+    background: transparent;
+    top: 320px;
+}

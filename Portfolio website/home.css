@@ -1,0 +1,122 @@
+body{
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav{
+    top: 15px;
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    box-shadow: 0 5px 33px rgb(0, 0, 0);
+    margin-left: 800px;
+    height: 30px;
+}
+.nav a{
+    position: relative;
+    display: inline-block;
+    border-radius: 10px;
+    text-align: center;
+    color: rgb(224, 224, 224);
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 80px;
+}
+.nav a:hover{
+    border-bottom: 3px solid white;
+    width: auto;
+    height: 30px; 
+}
+.sign a{
+    color: orange;
+    margin-left: 500px;
+    top: -25px;
+    
+}
+.logo h1{
+    text-align: center;
+    position: relative;
+    color: orange;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    width: 225px;
+    height: 30px;
+    background-color: rgb(0, 0, 0);
+    top: -15px;
+    font-size: 20px;
+    box-shadow: 0 3px 35px rgb(9, 1, 1);
+    margin-top: 5px;
+    cursor: pointer;
+}
+.photo img{
+    border-radius: 50px;
+    display: flex;
+    margin-left: 500px;
+    height: 300px;
+    box-shadow: 0 3px 15px;
+    cursor: pointer;
+}
+.photo p{
+    position: relative;
+    width: 300px;
+    margin-left: 100px;
+    top: 190px;
+    color: white;
+}
+.paragraph p{
+    position: relative;
+    width: 300px;
+    margin-left: 1000px;
+    top: -300px;
+    color: white;
+}
+.new img{
+    position: relative;
+    top: -190px;
+    display: flex;
+    margin-left: 270px;
+    height: 300px;
+    box-shadow: 0 4px 15px;
+    border-radius: 20px;
+    width: 400px;
+    cursor: pointer;
+}
+.new h1{
+    position: relative;
+    text-align: center;
+    color: orange;
+    font-size: 70px;
+    top: -170px;
+    width: 300px;
+    margin-left: 600px;
+}
+.new p{
+    position: relative;
+    margin-left: 380px;
+    font-size: 25px;
+    top: -180px;
+}
+.A img{
+    position: relative;
+    display: flex;
+    height: 300px;
+    margin-left: 850px;
+    top: -580px;
+    box-shadow: 0 4px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.A p{
+    position: relative;
+    margin-left: 990px;
+    top: -570px;
+    font-size: 25px;
+}
+.jep p{
+    position: relative;
+    top: -500px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    background-color: rgb(0, 0, 0);
+    height: 300px;
+}
